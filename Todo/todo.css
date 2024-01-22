@@ -1,0 +1,99 @@
+body {
+    background:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    background: lightpink;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+section {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#container input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#container button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: black;
+    cursor: pointer;
+}
+
+#todos {
+    padding: 10px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.checkbox {
+    margin-right: 10px;
+    color:black;
+}
+
+.delete, .edit {
+    margin-left: auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: darkred;
+}
+
+.delete::before {
+    content: '\1F5D1';
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.edit::before {
+    content: '\270E';
+    font-size: 20px;
+    margin-right: 5px;
+}
+#filters {
+    text-align: center;
+    margin-top: 20px;
+    background-color: white
+}
+
+#filters button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
