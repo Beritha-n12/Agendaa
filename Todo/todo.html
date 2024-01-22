@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Todos</h1>
+            <div id="container">
+                <input type="text" id="input" placeholder="Start typing">
+                <button id="submit">Add new</button>
+            </div>
+            <div id="todos">
+                <div class="todo-item">
+                    <input type="checkbox" class="checkbox">
+                    <p class="todo-text">Enrolling in Javascript course</p>
+                    <button class="delete">Delete</button>
+                    <button class="edit">Edit</button>
+                </div>
+            </div>
+            <div id="filters">
+                <button id="all">All todos</button>
+                <button id="active">Active todos</button>
+                <button id="completed">Completed todos</button>
+                <button id="clear">Clear completed todos</button>
+            </div>
+        </section>
+    </main>
+    <script src="todo.js"></script>
+</body>
+</html>
