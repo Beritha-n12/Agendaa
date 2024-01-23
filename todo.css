@@ -18,6 +18,7 @@ main {
     max-width: 800px;
     width: 100%;
     height: 100%;
+    font-family: 'montserrat',sans-serif;
 
 }
 
@@ -27,6 +28,7 @@ section {
 
 h1 {
     text-align: center;
+    font-family: 'montserrat',sans-serif;
 }
 
 #container {
@@ -34,6 +36,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    font-family: 'montserrat',sans-serif;
 }
 
 #container input {
@@ -41,6 +44,7 @@ h1 {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ddd;
+    font-family: 'montserrat',sans-serif;
 }
 
 #container button {
@@ -50,10 +54,12 @@ h1 {
     background-color: #4caf50;
     color: black;
     cursor: pointer;
+    font-family: 'montserrat',sans-serif;
 }
 
 #todos {
     padding: 10px;
+    font-family: 'montserrat',sans-serif;
 }
 
 .todo-item {
@@ -61,6 +67,7 @@ h1 {
     align-items: center;
     margin-bottom: 10px;
     border-bottom: 1px solid #ddd;
+    font-family: 'montserrat',sans-serif;
 
 }
 
@@ -76,6 +83,9 @@ h1 {
     border-radius: 5px;
     cursor: pointer;
     color: darkred;
+    background-color: lightblue;
+    font-family: 'montserrat',sans-serif;
+
 }
 
 .delete::before {
@@ -99,6 +109,7 @@ h1 {
     margin-left: 30px;
     margin-right: 30px;
     align-content:space-around;
+    font-family: 'montserrat',sans-serif;
 }
 
 #filters button {
@@ -111,6 +122,7 @@ h1 {
     cursor: pointer;
     color: black;
     background-color:lightblue;
+    
 }
 
 @media only screen and (max-width: 780px) {
