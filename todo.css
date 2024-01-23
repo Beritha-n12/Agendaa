@@ -7,6 +7,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    font-family: 'montserrat',sans-serif;
 }
 
 main {
@@ -103,7 +104,8 @@ h1 {
 #filters button {
     margin: 4px;
     margin-right: 60px;
-    padding: 8px;
+    padding: 6px 12px;
+    font-size: 12px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
